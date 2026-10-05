@@ -1,3 +1,4 @@
-def add(a, b):
-    return a + b
-print(1,2) 
+def add(*numbers):   
+     return sum(numbers)
+print(add(1,2)) 
+
